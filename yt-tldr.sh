@@ -1,23 +1,17 @@
 #!/bin/bash
 
-# yt-tldr.sh
-# 這個腳本可以自動下載 YouTube 影片的字幕或音訊，並使用 Whisper 和 ollama 產生影片內容的摘要。
-# 使用方法：./yt-tldr.sh <YouTube_URL>
-# 注意：請確保已安裝必要的依賴套件（yt-dlp、Whisper、ollama）。
-
-# 檢查是否提供了 YouTube URL 作為參數
+# 檢查是否提供了 YouTube 影片 ID 作為參數
 # 如果沒有提供參數，則顯示錯誤訊息並退出腳本
 if [ $# -eq 0 ]; then
-  echo "請提供 YouTube URL 作為參數。"
+  echo "請提供 YouTube 影片 ID 作為參數。"
   exit 1
 fi
 
-# 獲取提供的 YouTube URL
-url=$1
+# 獲取提供的 YouTube 影片 ID
+video_id=$1
 
-# 使用 yt-dlp 獲取影片的 ID
-# --get-id 選項會從 URL 中提取影片的 ID
-video_id=$(yt-dlp --get-id "$url")
+# 構建完整的 YouTube 影片 URL
+url="https://www.youtube.com/watch?v=$video_id"
 
 # 設定輸出檔案的名稱，使用影片的 ID 作為檔名
 # 輸出檔案將包含字幕的文字內容或音頻轉錄的內容
