@@ -1,5 +1,6 @@
 只是一些自己平時用到的 Scripts。
 
+- **combine-md-files.sh** - 搜尋當前目錄下所有具有特定前綴的 .md 檔案，並將它們組合成一個單一的輸出檔案。
 - **create-subs.sh** - 我用來產生影片內嵌字幕檔，並自動修改 .ass 格式設定的 script。
 - **ff-preset.sh** - 轉換影片檔案、內嵌字幕，輸出成適合常用平台的格式。
 - **ff-preset-nvidia.sh** - 轉換影片檔案、內嵌字幕，輸出成適合常用平台的格式。（使用 nVidia GPU 加速）
