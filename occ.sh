@@ -23,5 +23,14 @@ opencc -i "$input" -o "$output" -c s2tw.json
 # 輸出結果
 cat "$output"
 
+# 將結果複製到剪貼簿
+if command -v pbcopy >/dev/null 2>&1; then
+  # macOS
+  cat "$output" | pbcopy
+elif command -v xclip >/dev/null 2>&1; then
+  # Linux
+  cat "$output" | xclip -selection clipboard
+fi
+
 # 清理臨時檔案
 rm "$input" "$output"
