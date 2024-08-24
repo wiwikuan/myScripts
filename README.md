@@ -9,3 +9,4 @@
 - **text-to-ascii.py** - 輸入文字，利用點陣字型檔轉成 ASCII。
 - **url-extract.sh** - 貼入文字，擷取文字中的網址。
 - **yt-tldr.sh** - 自動下載 YouTube 影片的字幕或音訊，並使用 Whisper 和 ollama 產生影片內容的摘要。
+- **yt-res.sh** - 自動下載某解析度以下的 YouTube 影片。
