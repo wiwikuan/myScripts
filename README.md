@@ -6,6 +6,7 @@
 - **ff-preset-nvidia.sh** - 轉換影片檔案、內嵌字幕，輸出成適合常用平台的格式。（使用 nVidia GPU 加速）
 - **jpg-resize.sh** - 把圖片縮放到某個百分比的長寬，並且限制最大檔案大小，輸出成 .jpg 檔案。
 - **occ.sh** - 配合 opencc 使用，簡體轉繁體。
+- **png-seq-to-prores.sh** - 把 000000.png、000001.png……轉成 ProRes 4444 影片檔。
 - **remove-crunch.sh** - 打當前目錄中所有符合 "*-crunch.png" 模式的圖片檔重新命名。
 - **text-to-ascii.py** - 輸入文字，利用點陣字型檔轉成 ASCII。
 - **url-extract.sh** - 貼入文字，擷取文字中的網址。
