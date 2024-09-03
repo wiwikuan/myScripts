@@ -10,5 +10,6 @@
 - **remove-crunch.sh** - 把當前目錄中所有符合 "*-crunch.png" 模式的圖片檔重新命名。
 - **text-to-ascii.py** - 輸入文字，利用點陣字型檔轉成 ASCII。
 - **url-extract.sh** - 貼入文字，擷取文字中的網址。
+- **wav-to-mp3.sh** - 把當前資料夾裡的所有 .wav 轉成 160 kbps 的 .mp3 檔案。
 - **yt-tldr.sh** - 自動下載 YouTube 影片的字幕或音訊，並使用 Whisper 和 ollama 產生影片內容的摘要。
 - **yt-res.sh** - 自動下載某解析度以下的 YouTube 影片。
