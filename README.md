@@ -6,6 +6,7 @@
 - **ff-preset-nvidia.sh** - 轉換影片檔案、內嵌字幕，輸出成適合常用平台的格式。（使用 nVidia GPU 加速）
 - **jpg-resize.sh** - 把圖片縮放到某個百分比的長寬，並且限制最大檔案大小，輸出成 `.jpg` 檔案。
 - **jpg-resize-ver2.sh** - 把圖片縮小到某個像素或百分比的長寬，或限制最大檔案大小，輸出成 `.jpg` 檔案。
+- **lineBreak.py** - 把中文文字檔遇到全形標點符號就斷行，並且輸出新檔。
 - **nonsense.sh** - 用 `ollama` 產生一大堆無意義的故事，並存成 .txt 檔案。
 - **occ.sh** - 配合 `opencc` 使用，簡體轉繁體。
 - **png-seq-to-prores.sh** - 把 `000000.png`、`000001.png`……轉成 ProRes 4444 影片檔。
