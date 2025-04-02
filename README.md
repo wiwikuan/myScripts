@@ -1,6 +1,7 @@
 只是一些自己平時用到的 Scripts。
 
 - **combine-md-files.sh** - 搜尋當前目錄下所有具有特定前綴的 `.md` 檔案，並將它們組合成一個單一的輸出檔案。
+- **clean-vtt.sh** - 把複製到剪貼簿裡的 YouTube 自動產生 VTT 字幕檔清乾淨，並且把結果貼進剪貼簿。
 - **create-subs.sh** - 我用來產生影片內嵌字幕檔，並自動修改 `.ass` 格式設定的 script。
 - **ff-preset.sh** - 轉換影片檔案、內嵌字幕，輸出成適合常用平台的格式。
 - **ff-preset-nvidia.sh** - 轉換影片檔案、內嵌字幕，輸出成適合常用平台的格式。（使用 nVidia GPU 加速）
